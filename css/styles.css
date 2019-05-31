@@ -1,0 +1,294 @@
+body {
+
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+/*New Section: Header*/
+
+#title {
+
+  background-color: #33313b;
+  background-image: -webkit-linear-gradient(65deg, #ff4c68 50%, #33313b 50%);
+  z-index: 0;
+
+
+
+}
+
+.strudel-image {
+
+  height: 2rem;
+  width: 2rem;
+}
+
+h1 {
+
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #F5F5F5;
+
+}
+
+h2 {
+
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+
+#mainHeading {
+
+  font-size: 3rem;
+  padding-right: 10%;
+  padding-top: 10%;
+}
+
+.container-fluid1 {
+
+  padding: 2% 11% 11.5%;
+
+}
+
+.nav-item {
+
+  padding: 0 18px;
+
+}
+
+.nav-link {
+
+  font-size: 1.2rem;
+  font-weight: lighter;
+
+}
+
+
+#navigationBar {
+
+  padding: 0 0 5rem;
+
+}
+
+#brandName {
+
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+
+}
+
+#mainImage {
+
+  transform: rotate(20deg);
+  color: white;
+  font-size: 25rem;
+  position: absolute;
+  right: 13rem;
+  z-index: 0;
+}
+
+
+.downloadButton {
+
+  margin: 5% 3% 5% 0;
+
+}
+
+/* new section: Features */
+
+#features {
+
+  padding: 7% 5%;
+  background-color: white;
+  position: relative;
+
+}
+
+.high {
+
+  position: relative;
+  bottom: 3rem;
+}
+
+.low {
+
+  position: relative;
+  top: 2rem;
+}
+
+.containerBox {
+
+  padding: 4.5%;
+  text-align: center;
+
+}
+
+.styledHeading {
+
+  font-weight: bold;
+  font-size: 1.5rem;
+
+}
+
+.styledP {
+
+  color: #8f8f8f;
+
+}
+
+
+.iconImage {
+
+  color: #ef8172;
+  font-size: 3rem;
+  margin-bottom: 15px;
+
+}
+
+.iconImage:hover {
+
+  color: #ff4c68;
+
+}
+
+
+
+/* New Section: Testimonials */
+
+#testimonials {
+
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  background-image: -webkit-linear-gradient(65deg, #ff4c68 30%, #33313b 70%);
+  color: #F5F5F5;
+
+}
+
+.testimonyName {
+
+  color: black;
+  font-weight: bold;
+
+}
+
+.carousel-item {
+
+  padding: 7% 15%;
+
+}
+
+/*New Section: Showcase*/
+
+#showcase {
+
+  padding: 100px;
+  text-align: center;
+
+}
+
+.appCard {
+
+  padding: 3% 2%;
+
+}
+
+
+.iconImages {
+  width: 6rem;
+  border-radius: 10%;
+}
+
+/*New Section: Call to Action*/
+
+#cta {
+
+  background-color: #ff4c68;
+  padding: 8% 10% 10%;
+
+
+}
+
+#ctaText {
+
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  color: #F5F5F5;
+  line-height: 3;
+
+}
+
+.container-fluid3 {
+
+  text-align: center;
+
+}
+
+/*New Section: Footer*/
+
+#footer {
+
+  padding: 4% 10%;
+  padding-bottom: 1%;
+
+}
+
+
+.strudel-image2 {
+
+  width: 4rem;
+  height: 4rem;
+  margin-bottom: 2rem;
+
+}
+
+#iconContainer {
+
+  margin: 1rem;
+
+}
+
+.socialMediaIcons {
+
+  padding: 1% 1.2%;
+  color: #343A40;
+
+}
+
+.socialMediaIcons:hover {
+
+  color: #22262A;
+
+}
+
+
+#credits {
+  font-size: .25rem;
+}
+
+/*New Section: Media Queries*/
+
+@media (max-width: 1028px) {
+
+  #mainImage {
+
+    transform: rotate(0);
+    position: static;
+
+  }
+
+}
+
+@media (max-width: 725px) {
+
+  .low {
+    position: static;
+  }
+
+  .high {
+    position: static;
+  }
+}
