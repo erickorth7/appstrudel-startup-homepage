@@ -12,8 +12,6 @@ body {
   background-image: -webkit-linear-gradient(65deg, #ff4c68 50%, #33313b 50%);
   z-index: 0;
 
-
-
 }
 
 .strudel-image {
@@ -107,18 +105,6 @@ h2 {
 
 }
 
-.high {
-
-  position: relative;
-  bottom: 3rem;
-}
-
-.low {
-
-  position: relative;
-  top: 2rem;
-}
-
 .containerBox {
 
   padding: 4.5%;
@@ -172,6 +158,7 @@ h2 {
 
   color: black;
   font-weight: bold;
+  font-size: 3rem;
 
 }
 
